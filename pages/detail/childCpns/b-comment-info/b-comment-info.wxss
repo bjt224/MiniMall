@@ -1,0 +1,58 @@
+/* pages/detail/childCpns/b-comment-info/b-comment-info.wxss */
+.comment_info {
+  padding: 50rpx 30rpx;
+  border-bottom: 12rpx solid #f2f2f2;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30rpx;
+  font-size: 32rpx;
+  border-bottom: 2rpx solid #eee;
+}
+
+.user {
+  margin: 30rpx 0;
+}
+
+.user image {
+  width: 84rpx;
+  height: 84rpx;
+  border-radius: 42rpx;
+  vertical-align: middle;
+}
+
+.user text {
+  vertical-align: middle;
+  font-size: 32rpx;
+  margin-left: 16rpx;
+  color: #666;
+}
+
+.comment {
+  font-size: 28rpx;
+  text-indent: 1.5em;
+  line-height: 1.5;
+}
+
+.other_info {
+  display: flex;
+  font-size: 24rpx;
+  margin-top: 20rpx;
+  color: #888;
+}
+
+.other_info .time {
+  margin-right: 10rpx;
+}
+
+.picture {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20rpx;
+}
+
+.picture image {
+  max-width: 30%;
+}

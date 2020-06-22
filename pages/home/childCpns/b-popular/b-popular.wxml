@@ -1,0 +1,4 @@
+<!--pages/home/childCpns/b-popular/b-popular.wxml-->
+<view class="popular">
+  <image src="/assets/二十四小时.jpg" mode="widthFix" />
+</view>

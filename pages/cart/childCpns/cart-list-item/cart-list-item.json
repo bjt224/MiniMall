@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "b-check-icon": "/components/b-check-icon/b-check-icon"
+  }
+}

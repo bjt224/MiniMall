@@ -1,0 +1,4 @@
+<!--components/b-back-top/b-back-top.wxml-->
+<view class="back_top">
+  <image src="/assets/images/common/top.png" />
+</view>

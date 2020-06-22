@@ -1,0 +1,7 @@
+<!--pages/detail/childCpns/b-recommend-info/b-recommend-info.wxml-->
+<view class="recommend_info">
+  <view class="header">商品推荐</view>
+  <view class="content">
+    <b-goods goods="{{recommends}}" />
+  </view>
+</view>

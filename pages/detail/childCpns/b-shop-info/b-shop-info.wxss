@@ -1,0 +1,98 @@
+/* pages/detail/childCpns/b-shop-info/b-shop-info.wxss */
+.shop_info {
+  padding: 16rpx 16rpx 50rpx;
+}
+
+.title_info {
+  margin-top: 30rpx;
+}
+
+.title_info image {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 46rpx;
+  border: 1px solid rgba(200,200,200,.6);
+  vertical-align: middle;
+}
+
+
+.title_info text {
+  margin-left: 18rpx;
+  position: relative;
+  top: 6rpx;
+  vertical-align: middle;
+}
+
+.entrance {
+  text-align: center;
+}
+
+.entrance button::after {
+  border: none;
+}
+
+.entrance button {
+  padding: 8rpx 100rpx;
+}
+
+.sell_info {
+  display: flex;
+  margin: 40rpx 0;
+}
+
+.sell_item {
+  flex: 1;
+  text-align: center;
+}
+
+.count_info {
+  display: flex;
+  margin: 20rpx 0;
+  border-right: 1px solid rgba(200,200,200,.6);
+}
+
+.count_item {
+  flex: 1;
+  text-align: center;
+}
+
+.count_item .count {
+  font-size: 40rpx;
+}
+
+.count_item .text {
+  font-size: 28rpx;
+  margin-top: 16rpx;
+}
+
+.grade_info {
+  font-size: 28rpx;
+  margin: 0 20rpx;
+}
+
+.grade_row {
+  display: flex;
+}
+
+.grade_row .item {
+  margin-top: 8rpx;
+}
+
+.grade_row .name {
+  width: 200rpx;
+}
+
+.grade_row .score, .grade_row .better {
+  flex: 1;
+}
+
+
+.good {
+  color: #ff5777;
+}
+
+.less {
+  color: #5ea732;
+}
+
+

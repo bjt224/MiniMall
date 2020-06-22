@@ -1,0 +1,5 @@
+/* components/b-check-icon/b-check-icon.wxss */
+.check_icon {
+  border: 2rpx solid #aaa;
+  border-radius: 20px;
+}

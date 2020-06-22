@@ -1,0 +1,16 @@
+/* pages/detail/detail.wxss */
+.detail {
+  height: calc(100% - 120rpx);
+}
+
+.d_swiper swiper {
+  height: 800rpx;
+}
+
+.bottom_bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}

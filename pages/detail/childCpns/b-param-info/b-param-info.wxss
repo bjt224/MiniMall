@@ -1,0 +1,35 @@
+/* pages/detail/childCpns/b-param-info/b-param-info.wxss */
+.param_info {
+  padding: 40rpx 30rpx;
+  font-size: 30rpx;
+  border-bottom: 12rpx solid #f2f2f2;
+}
+
+.row {
+  display: flex;
+  height: 84rpx;
+  line-height: 84rpx;
+  border-bottom: 2rpx solid #f2f2f2;
+}
+
+.size_item {
+  flex: 1;
+  margin-right: 42rpx;
+}
+
+.info_row {
+  display: flex;
+}
+
+.info_row .key {
+  width: 160rpx;
+}
+
+.info_row .value {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #f55777;
+}
+

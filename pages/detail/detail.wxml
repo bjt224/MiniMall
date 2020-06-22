@@ -1,0 +1,13 @@
+<!--pages/detail/detail.wxml-->
+<scroll-view class="detail" scroll-y>
+  <b-swiper class="d_swiper" list="{{topImages}}" />
+  <b-base-info baseInfo="{{baseInfo}}" />
+  <b-shop-info shopInfo="{{shopInfo}}" />
+  <b-detail-info detailInfo="{{detailInfo}}" />
+  <b-param-info paramInfo="{{paramInfo}}" />
+  <b-comment-info commentInfo="{{commentInfo}}" />
+  <b-recommend-info recommends="{{recommends}}" />
+</scroll-view>
+<b-bottom-bar class="{{showBottomBar ? 'bottom_bar' : ''}}"  
+              bind:addCart="onAddCart" />
+<b-bottom-bar wx:if="{{showBottomBar}}" />

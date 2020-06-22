@@ -1,0 +1,28 @@
+/* pages/profile/childCpns/b-list-view/b-list-view.wxss */
+.list_view {
+  border-top: 36rpx solid #f8f8f8;
+}
+
+.list_item {
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #fff;
+  font-size: 32rpx;
+  margin-left: 30rpx;
+  border-bottom: 1rpx solid #f8f8f8;
+}
+
+.list_item:last-child {
+  border-bottom: none;
+}
+
+.list_item image {
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+}
+
+.list_item text {
+  font-size: 28rpx;
+  vertical-align: middle;
+}

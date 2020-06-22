@@ -1,0 +1,16 @@
+<!--components/b-swiper/b-swiper.wxml-->
+<!-- 轮播图 -->
+<swiper class="swiper"
+        circular
+        autoplay
+        interval="3000"
+        duration="300"
+        indicator-dots
+        indicator-active-color="#ff5777">
+  <block wx:for="{{list}}" wx:key="index">
+    <swiper-item class="swiper_item">
+      <image src="{{item}}" mode="widthFix" />
+    </swiper-item>
+  </block>
+</swiper>
+
